@@ -6,15 +6,15 @@ import 'decimal_to_binary.dart';
 import 'nums_from_collection.dart';
 import 'nums_in_string.dart';
 import 'point.dart';
-import 'rimans_integral.dart';
+import 'riemann_integral.dart';
 import 'root.dart';
 import 'user.dart';
 
 void main() {
   // print(nod(0, 30));
   // print(nok(12, 456));
-  // print(toBinary(1251));
-  // print(toDecimal("001011000111"));
+  print(toBinary(2759));
+  print(toDecimal("10001001"));
   // print(digitsInString("aefaje67 gjg, sjfs88, ldld 65,7"));
   // print(numsInString("str 65.7 ghgjfk 78 kk 000001 fkgfkjgjj 123 0xc 0x0c"));
   // print(Point(1,1,0).distanceTo(Point(2,2,0)));
@@ -49,5 +49,7 @@ void main() {
   // StringConverter converter = new StringConverter(list);
   // print(converter.mapFomCollection());
 
-  print(IntegralCalculator.calculate(14, 12, 0.000001, (x) => pow(x, 2) + x + 1));
+  //print(IntegralCalculator.calculate(14, 12, 0.000001, (x) => pow(x, 2) + x + 1));
+
+  print(primeFactorization(-68));
 }
